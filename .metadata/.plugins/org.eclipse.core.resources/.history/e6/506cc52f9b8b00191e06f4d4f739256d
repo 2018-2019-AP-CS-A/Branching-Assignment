@@ -1,0 +1,13 @@
+package Schoenfelder_Garrett;
+
+public class Driver {
+
+	public static void main(String[] args)
+	{
+		System.out.println("Sum: " + Exercises.threeAndFive());
+		
+		
+		
+	}
+
+}
