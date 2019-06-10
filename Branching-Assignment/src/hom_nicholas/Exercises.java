@@ -28,16 +28,21 @@ public class Exercises
 	
 	static int largestPrimeFactor()
 	{
-		int largest = 0;
+		int largest = 0, divide = 2;
 		boolean prime = true;
 		long num = 600851475143L;
 		for(long i = 3; i < num; i = i + 2)
 		{
 			if(num % i == 0)
 			{
-				for(int j = 2; j < i; j++)
-					if(i % j == 0)
+				while(prime == true)
+				{
+					if(i % divide == 0)
+					{
 						prime = false;
+						divide = 2;
+					}
+				}
 				if(prime == true)
 					largest = (int) i;
 			}
@@ -49,6 +54,6 @@ public class Exercises
 	{
 		System.out.println(Exercises.threeAndFive());
 		System.out.println(Exercises.evenFibSum());
-		//System.out.println(Exercises.largestPrimeFactor());
+		System.out.println(Exercises.largestPrimeFactor());
 	}
 }
