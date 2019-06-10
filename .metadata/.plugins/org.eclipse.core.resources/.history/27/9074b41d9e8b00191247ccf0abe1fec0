@@ -1,0 +1,10 @@
+package naphtali_mason;
+
+public class driverClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
