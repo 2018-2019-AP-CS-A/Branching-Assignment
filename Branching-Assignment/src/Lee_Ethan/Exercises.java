@@ -66,18 +66,18 @@ public class Exercises
 	
 	public static int largestPrimeFactor()
 	{
-		long largest = 600851475143L;
+		long biggest = 600851475143L;
 		long factor = 2;
-		while(largest > factor)
+		while(biggest > factor)
 		{
-			if(largest % factor == 0)
+			if(biggest % factor == 0)
 			{
-				largest = largest/factor;
+				biggest = biggest/factor;
 				factor = 2;
 			}
 			else
 				factor++;
 		}
-		return (int)largest;
+		return (int)biggest;
 	}
 } 
