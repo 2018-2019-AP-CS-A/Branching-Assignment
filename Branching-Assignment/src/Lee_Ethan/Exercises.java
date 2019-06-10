@@ -32,30 +32,34 @@ public class Exercises
 {
 	public static int threeAndFive()
 	{
-		int sum = 0;
-		for(int i = 0; i < 1000; i+=3)
+		int number = 0, sum = 0;
+		while (number < 1000)
 		{
-			sum+=i;
-		}
-		for(int i = 0; i < 1000; i+=5)
-		{
-			if(i % 3 != 0)
+			if (number % 3 == 0 || number % 5 == 0)
 			{
-				sum+=i;
+				sum+=number;
 			}
+			number++;
 		}
-		
 		return sum;
 	}
-	
+
 	public static int evenFibSum()
 	{
-		int sum = 1;
-		int temp = 0;
-		for(int i = 0; i < 4000000; i+= temp)
+		int first = 1, second = 1, sum = 0;
+		while(first < 4000000)
 		{
-			temp = i;
-			sum +=i;
+			if(first % 2 == 0)
+			{
+				sum += first;
+			}
+			if(second % 2 == 0)
+			{
+				sum += second;
+			}
+			first = first + second;
+			second = first + second;
+
 		}
 		return sum;
 	}
