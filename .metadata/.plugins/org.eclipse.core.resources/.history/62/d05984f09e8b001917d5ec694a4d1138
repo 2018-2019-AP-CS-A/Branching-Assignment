@@ -2,6 +2,10 @@
  * @author Harry Allex
  */
 package Allex_Harry;
+
+import java.math.BigInteger;
+import java.util.ArrayList;
+
 public class Exercises
 {
 	public static int threeAndFive()
