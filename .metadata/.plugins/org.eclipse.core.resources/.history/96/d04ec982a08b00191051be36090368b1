@@ -42,11 +42,10 @@ public class Exercises
 		boolean isPrime = true;
 
 		// this is to see if num is factorable
-		for (int i = 2; i < num; i++) 
-		{
+		for (int i = 2; i < num; i++) {
 			//if i is a factor, check if its prime
-			if (num % i == 0) 
-			{
+			if (num % i == 0) {
+
 				for (int j = 2; j < i; j++) 
 				{
 					if (i % j == 0) 
@@ -59,7 +58,6 @@ public class Exercises
 					return i;
 				}
 			}
-		return (int) num;
 		}
 	}
 }

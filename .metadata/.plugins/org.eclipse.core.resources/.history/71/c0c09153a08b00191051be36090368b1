@@ -15,7 +15,7 @@ public class Exercises
 		}
 		return sum;
 	}
-
+	
 	public static int evenFibSum()
 	{
 		int sum = 0, i = 1;
@@ -27,7 +27,7 @@ public class Exercises
 		}
 		return sum;
 	}
-
+	
 	private static int fibHelp(int n)
 	{
 		if(n <= 2)
@@ -35,32 +35,6 @@ public class Exercises
 		else
 			return fibHelp(n-1) + fibHelp(n-2);
 	}
-
-	public static int largestPrimeFactor()
-	{
-		long num = 600851475143L;
-		boolean isPrime = true;
-
-		// this is to see if num is factorable
-		for (int i = 2; i < num; i++) 
-		{
-			//if i is a factor, check if its prime
-			if (num % i == 0) 
-			{
-				for (int j = 2; j < i; j++) 
-				{
-					if (i % j == 0) 
-					{
-						isPrime = false;
-					}
-				}
-				if (isPrime) 
-				{
-					return i;
-				}
-			}
-		return (int) num;
-		}
-	}
+	
+	public static int 
 }
-
