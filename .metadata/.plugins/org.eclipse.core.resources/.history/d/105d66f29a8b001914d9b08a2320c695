@@ -1,0 +1,16 @@
+/**
+ * @author Avijit S. Thapar
+ * 
+ * **/
+
+package Thapar_Avijit;
+
+public class Exercises 
+{
+	public int threeAndFive()
+	{
+		
+	}
+	
+
+}
