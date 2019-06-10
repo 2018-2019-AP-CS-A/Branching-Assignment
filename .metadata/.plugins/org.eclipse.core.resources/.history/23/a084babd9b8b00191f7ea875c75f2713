@@ -1,0 +1,49 @@
+package hom_nicholas;
+/**@author Nicholas Hom**/
+public class Exercises 
+{
+	static int threeAndFive()
+	{
+		int sum = 0;
+		for(int i = 0; i < 1000; i = i +3)
+			if(i % 3 == 0 || i % 5 == 0)
+				sum = sum + i;
+		return sum;
+	}
+	
+	static int evenFibSum()
+	{
+		int n = 4000000;
+		int fib = 1;
+		int prevFib = 1;
+		
+		for(int i=2; i<n; i++) 
+		{
+			int temp = fib;
+			if(fib % 2 == 0)
+			fib+= prevFib;
+			prevFib = temp;
+		}
+		return fib;
+	}
+	
+	static int largestPrimeFactor()
+	{
+		int largest = 0;
+		long num = 600851475143L;
+		for(int i = 0; i < num; i++)
+		{
+			if(num % i == 0)
+				if(i > largest)
+					largest = i;
+		}
+		return largest;
+	}
+
+	public static void main(String[] args)
+	{
+		System.out.println(Exercises.threeAndFive());
+		//System.out.println(Exercises.evenFibSum());
+		System.out.println(Exercises.largestPrimeFactor());
+	}
+}
