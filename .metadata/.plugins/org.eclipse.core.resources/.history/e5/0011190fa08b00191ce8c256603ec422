@@ -1,0 +1,73 @@
+package ryan_dylan;
+
+/**
+ * @author Dylan Ryan 
+ * 
+ * 		- int largestPrimeFactor() : Returns the largest prime factor of the number 600851475143
+ * 	- Create a separate Driver class and test your program by outputting the answers to your static methods
+ *
+ * Submission Instructions:
+ *  - Save your saved work on Eclipse - your workspace should be the file location of the cloned repo
+ *  - In GitHub Desktop, add your summary and commit your changes
+ *  - Then push your commits to GitHub
+ *  - Go to your repo on GitHub.com
+ *  - Click "New pull request"
+ *  - Click "Create pull request"
+ *  - In the summary for your request, put your first and last name
+ *  - Send the request
+ * 
+ * 
+ */
+
+public class Exercises 
+{
+
+	public static int threeAndFive()
+	{
+		int sum = 0;
+		for (int i = 0; i < 1000; i++)
+			if (i % 3 == 0 || i % 5 == 0)
+				sum += i;
+		return sum;
+	}
+	
+	public static int evenFibSum()
+	{
+		int i = 1;
+		return evenFibSumRec(i, 0); 
+	}
+	private static int evenFibSumRec(int i, int prev)
+	{
+		if (i > 4000000)
+			return 0;
+		if (i % 2 != 0)
+			return i + evenFibSumRec((i + prev), i);
+		else
+			return evenFibSumRec((i + prev), i);
+	}
+	
+	public static int largestPrimeFactor()
+	{
+		int currentLargestPrime = 0;
+		long num = (long)(600851475143.0);
+		long newNum = num;
+		
+		for (int i = 1; newNum == num; i++)
+		{
+			if (num % i == 0)
+			{
+				newNum = i;
+				num = num/i;
+				newNum = num;
+				currentLargestPrime = i;
+			}
+		}
+		if (num > currentLargestPrime)
+			currentLargestPrime = (int) num;
+		return currentLargestPrime;
+	}
+	
+	
+	
+	
+}
