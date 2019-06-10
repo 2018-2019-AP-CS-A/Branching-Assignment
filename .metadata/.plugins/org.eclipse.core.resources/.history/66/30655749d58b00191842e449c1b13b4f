@@ -28,19 +28,20 @@ public class Exercises
 	
 	static int largestPrimeFactor()
 	{
-		long root = 600851475143L;
+		long largest = 0;
+		long num = 600851475143L;
 		long factor = 2;
-		while(root > factor)
+		while(largest > factor)
 		{
-			if(root % factor == 0)
+			if(largest % factor == 0)
 			{
-				root = root/factor;
+				largest = largest/factor;
 				factor = 2;
 			}
 			else
 				factor++;
 		}
-		return (int)root;
+		return (int)largest;
 	}
 
 	public static void main(String[] args)

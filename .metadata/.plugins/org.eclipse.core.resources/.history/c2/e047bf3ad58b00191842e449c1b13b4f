@@ -28,19 +28,26 @@ public class Exercises
 	
 	static int largestPrimeFactor()
 	{
-		long root = 600851475143L;
-		long factor = 2;
-		while(root > factor)
+		int largest = 0, divide = 2;
+		boolean prime = true;
+		long num = 600851475143L;
+		for(long i = 3; i < num; i = i + 2)
 		{
-			if(root % factor == 0)
+			if(num % i == 0)
 			{
-				root = root/factor;
-				factor = 2;
+				while(prime == true)
+				{
+					if(i % divide == 0)
+					{
+						prime = false;
+						divide = 2;
+					}
+				}
+				if(prime == true)
+					largest = (int) i;
 			}
-			else
-				factor++;
 		}
-		return (int)root;
+		return largest;
 	}
 
 	public static void main(String[] args)
