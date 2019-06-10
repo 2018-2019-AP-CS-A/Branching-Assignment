@@ -27,6 +27,7 @@
  */
 package chiu_ashley;
 
-public class Exercises {
+public class Exercises
+{
 
 }
