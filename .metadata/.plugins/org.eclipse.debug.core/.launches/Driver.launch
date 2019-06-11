@@ -2,18 +2,26 @@
 <launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
 <<<<<<< HEAD
+<<<<<<< HEAD
 <listEntry value="/Branching-Assignment/src/Schoenfelder_Garrett/Driver.java"/>
 =======
 <listEntry value="/Branching-Assignment/src/Bibilouri_Nicholas/Driver.java"/>
 >>>>>>> pr/4
+=======
+<listEntry value="/Branching-Assignment/src/isaacson_drew/Driver.java"/>
+>>>>>>> pr/9
 </listAttribute>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
 <listEntry value="1"/>
 </listAttribute>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="Schoenfelder_Garrett.Driver"/>
 =======
 <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="Bibilouri_Nicholas.Driver"/>
 >>>>>>> pr/4
+=======
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="isaacson_drew.Driver"/>
+>>>>>>> pr/9
 <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Branching-Assignment"/>
 </launchConfiguration>
