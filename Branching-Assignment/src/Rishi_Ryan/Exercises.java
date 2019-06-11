@@ -40,26 +40,14 @@ public class Exercises
 	static int largestPrimeFactor()
 	{
 		 long num = 600851475143L;
-	     while (num % 2 == 0) 
+	     for (int i = 3; i < num; i += 2) 
 	     {
-	    	 num /= 2;
-	     }
-	     for (long factor = 3; factor < num; factor += 2) 
-	     {
-	    	 while (num % factor == 0 && factor < num) 
+	    	 while (num % i == 0 && i < num) 
 	         {
-	    		 num /= factor;
+	    		 num /= i;
 	         }
 	     }
 	      return (int) num;
 	}
-	
-	public static void main(String[] args)
-	{
-		System.out.println(Exercises.threeAndFive());
-		System.out.println(Exercises.evenFibSum());
-		System.out.println(Exercises.largestPrimeFactor());
-	}
-
 }
 
