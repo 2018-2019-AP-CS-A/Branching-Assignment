@@ -38,34 +38,29 @@ public class Exercises
 
 	public static int largestPrimeFactor()
 	{
-		int answer = -1;
-		long currentNum = Long.parseLong("600851475143");
-		boolean contFinalLoop = true;
-		while(contFinalLoop)
+		long num = 600851475143L;
+		boolean isPrime = true;
+
+		// this is to see if num is factorable
+		for (int i = 2; i < num; i++) 
 		{
-			int i = 1;
-			boolean contNewNum=true;
-			while(contNewNum)
+			//if i is a factor, check if its prime
+			if (num % i == 0) 
 			{
-				i++;
-				if(currentNum%i==0)
+				for (int j = 2; j < i; j++) 
 				{
-					currentNum/=i;
-					if(i>answer)
-						answer=i;
-					contNewNum=false;
-				}
-				else
-				{
-					if(i>=currentNum)
+					if (i % j == 0) 
 					{
-						contNewNum=false;
-						contFinalLoop = false;
+						isPrime = false;
 					}
 				}
-
+				if (isPrime) 
+				{
+					return i;
+				}
 			}
 		}
-		return answer;
+		return (int) num;
 	}
 }
+
