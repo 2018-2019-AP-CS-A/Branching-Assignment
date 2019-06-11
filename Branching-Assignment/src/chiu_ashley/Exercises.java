@@ -29,9 +29,5 @@ package chiu_ashley;
 
 public class Exercises 
 {
-<<<<<<< HEAD
 	
-=======
-
->>>>>>> pr/5
 }
