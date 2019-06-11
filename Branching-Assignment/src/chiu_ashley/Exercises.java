@@ -1,4 +1,4 @@
-/**
+/**if
  * @author Ashley Chiu //include this tag in your classes with your name
  * 
  * Assignment Instructions:
@@ -29,5 +29,9 @@ package chiu_ashley;
 
 public class Exercises 
 {
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> pr/5
 }

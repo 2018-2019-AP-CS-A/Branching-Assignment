@@ -14,10 +14,14 @@
 <extensionDirs>
 <entry path="C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <entry path="C:\windows\Sun\Java\lib\ext"/>
 =======
 <entry path="C:\WINDOWS\Sun\Java\lib\ext"/>
 >>>>>>> pr/9
+=======
+<entry path="C:\windows\Sun\Java\lib\ext"/>
+>>>>>>> pr/5
 </extensionDirs>
 <endorsedDirs>
 <entry path="C:\Program Files\Java\jdk1.8.0_91\jre\lib\endorsed"/>

@@ -3,6 +3,7 @@
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <listEntry value="/Branching-Assignment/src/Schoenfelder_Garrett/Driver.java"/>
 =======
 <listEntry value="/Branching-Assignment/src/Bibilouri_Nicholas/Driver.java"/>
@@ -10,10 +11,14 @@
 =======
 <listEntry value="/Branching-Assignment/src/isaacson_drew/Driver.java"/>
 >>>>>>> pr/9
+=======
+<listEntry value="/Branching-Assignment/src/Xu_Bill/Driver.java"/>
+>>>>>>> pr/5
 </listAttribute>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
 <listEntry value="1"/>
 </listAttribute>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="Schoenfelder_Garrett.Driver"/>
@@ -23,5 +28,8 @@
 =======
 <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="isaacson_drew.Driver"/>
 >>>>>>> pr/9
+=======
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="Xu_Bill.Driver"/>
+>>>>>>> pr/5
 <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Branching-Assignment"/>
 </launchConfiguration>
