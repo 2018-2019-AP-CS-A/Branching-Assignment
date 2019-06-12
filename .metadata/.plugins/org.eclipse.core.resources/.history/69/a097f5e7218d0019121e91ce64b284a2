@@ -1,0 +1,38 @@
+package daniels_logan;
+
+import java.math.BigInteger;
+
+/** @author Logan Daniels */
+
+public class Exercises {
+
+	public static int threeAndFive() {
+		int sum = 0;
+		for (int i = 1; i < 1000; i++)
+			if ((i % 3 == 0) || (i % 5 == 0))
+				sum += i;
+		return sum;
+	}
+
+	public static int evenFibSum() {
+		int sum = 0;
+		int x = 1;
+		int y = 1;
+		while ((x < 4000000) && (y < 4000000)) {
+			if (((x + y) % 2) == 0)
+
+				if (x <= y)
+					x += y;
+				else
+					y += x;
+
+		}
+		return sum;
+
+	}
+
+	int largestPrimeFactor() {
+		// : Returns the largest prime factor of the number 600851475143
+	}
+
+}
