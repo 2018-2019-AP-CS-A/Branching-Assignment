@@ -1,5 +1,5 @@
 /**
- * @author Ashley Chiu //include this tag in your classes with your name
+ * @author Nathan Schnitzer
  * 
  * Assignment Instructions:
  * 	- Right click on the src folder and create a new package.
