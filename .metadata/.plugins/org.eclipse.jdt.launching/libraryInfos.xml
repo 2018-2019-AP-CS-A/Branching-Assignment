@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> pr/24
 =======
@@ -101,6 +102,25 @@
 >>>>>>> pr/28
 =======
 >>>>>>> pr/31
+=======
+<libraryInfo home="C:\Program Files\Java\jre1.8.0_201" version="1.8.0_201">
+<bootpath>
+<entry path="C:\Program Files\Java\jre1.8.0_201\lib\resources.jar"/>
+<entry path="C:\Program Files\Java\jre1.8.0_201\lib\rt.jar"/>
+<entry path="C:\Program Files\Java\jre1.8.0_201\lib\sunrsasign.jar"/>
+<entry path="C:\Program Files\Java\jre1.8.0_201\lib\jsse.jar"/>
+<entry path="C:\Program Files\Java\jre1.8.0_201\lib\jce.jar"/>
+<entry path="C:\Program Files\Java\jre1.8.0_201\lib\charsets.jar"/>
+<entry path="C:\Program Files\Java\jre1.8.0_201\lib\jfr.jar"/>
+<entry path="C:\Program Files\Java\jre1.8.0_201\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\Program Files\Java\jre1.8.0_201\lib\ext"/>
+<entry path="C:\WINDOWS\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\Program Files\Java\jre1.8.0_201\lib\endorsed"/>
+>>>>>>> pr/32
 </endorsedDirs>
 </libraryInfo>
 <libraryInfo home="C:\Program Files\Java\jre1.8.0_131" version="1.8.0_131">
