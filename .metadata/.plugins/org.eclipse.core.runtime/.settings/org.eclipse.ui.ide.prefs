@@ -2,6 +2,7 @@ PROBLEMS_FILTERS_MIGRATE=true
 eclipse.preferences.version=1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 platformState=1487782179988
 =======
 platformState=1482006634456
@@ -9,5 +10,8 @@ platformState=1482006634456
 =======
 platformState=1487794730774
 >>>>>>> pr/20
+=======
+platformState=1487795087496
+>>>>>>> pr/26
 quickStart=false
 tipsAndTricks=true

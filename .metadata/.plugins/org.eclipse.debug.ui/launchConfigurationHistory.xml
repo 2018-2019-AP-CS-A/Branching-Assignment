@@ -6,6 +6,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <launchGroup id="org.eclipse.jubula.launch.ui.launchGroup.aut">
 <mruHistory>
 <<<<<<< HEAD
@@ -31,6 +32,11 @@
 <mruHistory>
 <launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;launchConfiguration local=&quot;true&quot; path=&quot;Driver&quot;/&gt;&#13;&#10;"/>
 >>>>>>> pr/25
+=======
+<launchGroup id="org.eclipse.jubula.launch.ui.launchGroup.aut">
+<mruHistory>
+<launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;launchConfiguration local=&quot;true&quot; path=&quot;Driver&quot;/&gt;&#13;&#10;"/>
+>>>>>>> pr/26
 </mruHistory>
 <favorites/>
 </launchGroup>
@@ -40,6 +46,7 @@
 </launchGroup>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <launchGroup id="org.eclipse.debug.ui.launchGroup.debug">
 <mruHistory>
@@ -68,10 +75,13 @@
 >>>>>>> pr/23
 =======
 >>>>>>> pr/25
+=======
+>>>>>>> pr/26
 <launchGroup id="org.eclipse.debug.ui.launchGroup.profile">
 <mruHistory/>
 <favorites/>
 </launchGroup>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -110,19 +120,25 @@
 =======
 >>>>>>> pr/23
 =======
+=======
+>>>>>>> pr/26
 <launchGroup id="org.eclipse.debug.ui.launchGroup.debug">
 <mruHistory>
 <launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;launchConfiguration local=&quot;true&quot; path=&quot;Driver&quot;/&gt;&#13;&#10;"/>
 </mruHistory>
 <favorites/>
 </launchGroup>
+<<<<<<< HEAD
 >>>>>>> pr/25
+=======
+>>>>>>> pr/26
 <launchGroup id="org.eclipse.ui.externaltools.launchGroup">
 <mruHistory/>
 <favorites/>
 </launchGroup>
 <launchGroup id="org.eclipse.debug.ui.launchGroup.run">
 <mruHistory>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -189,9 +205,14 @@
 </launchGroup>
 >>>>>>> pr/23
 =======
+=======
+>>>>>>> pr/26
 <launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;launchConfiguration local=&quot;true&quot; path=&quot;Driver&quot;/&gt;&#13;&#10;"/>
 </mruHistory>
 <favorites/>
 </launchGroup>
+<<<<<<< HEAD
 >>>>>>> pr/25
+=======
+>>>>>>> pr/26
 </launchHistory>

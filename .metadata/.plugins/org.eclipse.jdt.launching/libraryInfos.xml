@@ -5,10 +5,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> pr/24
 =======
 >>>>>>> pr/25
+=======
+>>>>>>> pr/26
 <libraryInfo home="C:\Program Files\Java\jdk1.8.0_91" version="1.8.0_91">
 <bootpath>
 <entry path="C:\Program Files\Java\jdk1.8.0_91\jre\lib\resources.jar"/>
@@ -23,10 +26,14 @@
 <extensionDirs>
 <entry path="C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> pr/26
 <entry path="C:\WINDOWS\Sun\Java\lib\ext"/>
 </extensionDirs>
 <endorsedDirs>
 <entry path="C:\Program Files\Java\jdk1.8.0_91\jre\lib\endorsed"/>
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <libraryInfo home="C:\Program Files\Java\jre1.8.0_191" version="1.8.0_191">
@@ -74,6 +81,8 @@
 <endorsedDirs>
 <entry path="C:\Program Files\Java\jdk1.8.0_91\jre\lib\endorsed"/>
 >>>>>>> pr/25
+=======
+>>>>>>> pr/26
 </endorsedDirs>
 </libraryInfo>
 <libraryInfo home="C:\Program Files\Java\jre1.8.0_131" version="1.8.0_131">
@@ -95,6 +104,7 @@
 <entry path="C:\Program Files\Java\jre1.8.0_131\lib\endorsed"/>
 </endorsedDirs>
 </libraryInfo>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -145,6 +155,8 @@
 <entry path="C:\Program Files\Java\jre1.8.0_111\lib\endorsed"/>
 </endorsedDirs>
 </libraryInfo>
+=======
+>>>>>>> pr/26
 <libraryInfo home="C:\Program Files\Java\jdk1.8.0_91\jre" version="1.8.0_91">
 <bootpath>
 <entry path="C:\Program Files\Java\jdk1.8.0_91\jre\lib\resources.jar"/>
@@ -162,6 +174,7 @@
 </extensionDirs>
 <endorsedDirs>
 <entry path="C:\Program Files\Java\jdk1.8.0_91\jre\lib\endorsed"/>
+<<<<<<< HEAD
 >>>>>>> pr/19
 =======
 <entry path="C:\windows\Sun\Java\lib\ext"/>
@@ -224,4 +237,8 @@
 </endorsedDirs>
 </libraryInfo>
 >>>>>>> pr/23
+=======
+</endorsedDirs>
+</libraryInfo>
+>>>>>>> pr/26
 </libraryInfos>
