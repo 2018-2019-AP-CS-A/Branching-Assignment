@@ -3,6 +3,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> pr/24
 <libraryInfo home="C:\Program Files\Java\jdk1.8.0_91" version="1.8.0_91">
 <bootpath>
 <entry path="C:\Program Files\Java\jdk1.8.0_91\jre\lib\resources.jar"/>
@@ -20,6 +23,7 @@
 </extensionDirs>
 <endorsedDirs>
 <entry path="C:\Program Files\Java\jdk1.8.0_91\jre\lib\endorsed"/>
+<<<<<<< HEAD
 =======
 <libraryInfo home="C:\Program Files\Java\jre1.8.0_191" version="1.8.0_191">
 <bootpath>
@@ -58,6 +62,8 @@
 <endorsedDirs>
 <entry path="C:\Program Files\Java\jre1.8.0_102\lib\endorsed"/>
 >>>>>>> pr/23
+=======
+>>>>>>> pr/24
 </endorsedDirs>
 </libraryInfo>
 <libraryInfo home="C:\Program Files\Java\jre1.8.0_131" version="1.8.0_131">
