@@ -1,0 +1,13 @@
+package naphtali_mason;
+
+import chiu_ashley.Exercises;
+
+public class driverClass {
+
+	public static void main(String[] args) 
+	{
+		System.out.println(Exercises.threeAndFive());
+
+	}
+
+}
