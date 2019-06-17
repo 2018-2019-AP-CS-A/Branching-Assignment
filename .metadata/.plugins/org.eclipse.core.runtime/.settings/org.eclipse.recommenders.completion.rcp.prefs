@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 completion_tips_seen=org.eclipse.recommenders.completion.rcp.tips.types
 eclipse.preferences.version=1
 =======
@@ -11,3 +12,7 @@ sessionprocessors=org.eclipse.recommenders.overrides.rcp.completion.processor;or
 completion_tips_seen=org.eclipse.recommenders.completion.rcp.tips.types
 eclipse.preferences.version=1
 >>>>>>> pr/15
+=======
+completion_tips_seen=org.eclipse.recommenders.completion.rcp.tips.types
+eclipse.preferences.version=1
+>>>>>>> pr/20
