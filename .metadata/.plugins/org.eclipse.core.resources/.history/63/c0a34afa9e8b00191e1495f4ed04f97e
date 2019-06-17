@@ -1,0 +1,62 @@
+/**
+ * @author Ryan Rishi
+ */
+package Rishi_Ryan;
+
+public class Exercises 
+{
+	static int threeAndFive()
+	{
+		int sum=0;
+		for(int i=0; i<1000; i++)
+		{
+			if(i%3==0 || i%5==0)
+			{
+				sum+=i;
+			}
+		}
+		return sum;
+	}
+	
+	static int evenFibSum()
+	{
+		int i=2;
+		int sum=0;
+		
+		while(i<4000000)
+		{
+			if(i%2==0)
+			{
+				sum+=i;
+			}
+			i=i+i-1;
+		}
+		return sum;
+	}
+	
+	static int largestPrimeFactor()
+	{
+		 long num = 600851475143L;
+	     while (num % 2 == 0) 
+	     {
+	    	 num /= 2;
+	     }
+	     for (long factor = 3; factor < num; factor += 2) 
+	     {
+	    	 while (num % factor == 0 && factor < num) 
+	         {
+	    		 num /= factor;
+	         }
+	     }
+	      return (int) num;
+	}
+	
+	public static void main(String[] args)
+	{
+		System.out.println(Exercises.threeAndFive());
+		System.out.println(Exercises.evenFibSum());
+		System.out.println(Exercises.largestPrimeFactor());
+	}
+
+}
+

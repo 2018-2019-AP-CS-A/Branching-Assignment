@@ -3,6 +3,7 @@
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <listEntry value="/Branching-Assignment/src/hong_jonathan/Exercises.java"/>
 =======
 <listEntry value="/Branching-Assignment/src/Giovanniello_Ryan/Exercises.java"/>
@@ -10,10 +11,14 @@
 =======
 <listEntry value="/Branching-Assignment/src/hom_nicholas/Exercises.java"/>
 >>>>>>> pr/21
+=======
+<listEntry value="/Branching-Assignment/src/Rishi_Ryan/Exercises.java"/>
+>>>>>>> pr/23
 </listAttribute>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
 <listEntry value="1"/>
 </listAttribute>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="hong_jonathan.Exercises"/>
@@ -23,5 +28,8 @@
 =======
 <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="hom_nicholas.Exercises"/>
 >>>>>>> pr/21
+=======
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="Rishi_Ryan.Exercises"/>
+>>>>>>> pr/23
 <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Branching-Assignment"/>
 </launchConfiguration>

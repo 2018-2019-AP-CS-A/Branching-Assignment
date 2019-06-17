@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
 <<<<<<< HEAD
+<<<<<<< HEAD
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
 <listEntry value="/Branching-Assignment/src/Lee_Ethan/Driver.java"/>
+=======
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/Branching-Assignment/src/Rishi_Ryan/Driver.java"/>
+>>>>>>> pr/23
 </listAttribute>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
 <listEntry value="1"/>
 </listAttribute>
+<<<<<<< HEAD
 <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="Lee_Ethan.Driver"/>
 <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Branching-Assignment"/>
 =======
@@ -20,4 +26,8 @@
     <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="momin_ishma.Driver"/>
     <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Branching-Assignment"/>
 >>>>>>> pr/22
+=======
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="Rishi_Ryan.Driver"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Branching-Assignment"/>
+>>>>>>> pr/23
 </launchConfiguration>
