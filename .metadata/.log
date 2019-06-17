@@ -541,6 +541,7 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 !ENTRY org.eclipse.e4.ui.workbench 2 0 2019-06-10 12:07:02.725
@@ -710,6 +711,9 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 =======
 !SESSION 2019-06-10 11:57:35.252 -----------------------------------------------
 >>>>>>> pr/26
+=======
+!SESSION 2019-06-10 11:51:26.265 -----------------------------------------------
+>>>>>>> pr/28
 eclipse.buildId=4.6.2.M20161124-1400
 java.version=1.8.0_91
 java.vendor=Oracle Corporation
@@ -717,6 +721,7 @@ BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
 Framework arguments:  -product org.eclipse.epp.package.cpp.product
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -797,11 +802,17 @@ Binding(SHIFT+F9,
 !MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
 !SUBENTRY 1 org.eclipse.jface 2 0 2019-06-10 12:06:30.160
 >>>>>>> pr/26
+=======
+!ENTRY org.eclipse.jface 2 0 2019-06-10 12:00:35.606
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-06-10 12:00:35.606
+>>>>>>> pr/28
 !MESSAGE A conflict occurred for F9:
 Binding(F9,
 	ParameterizedCommand(Command(org.eclipse.cdt.make.ui.targetBuildLastCommand,Rebuild Last Target,
 		Rebuild the last make target for the selected container or project.,
 		Category(org.eclipse.ui.category.project,Project,null,true),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -819,6 +830,9 @@ Binding(F9,
 =======
 		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2cb4e4b1,
 >>>>>>> pr/26
+=======
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4b37b01e,
+>>>>>>> pr/28
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
@@ -826,6 +840,7 @@ Binding(F9,
 	ParameterizedCommand(Command(org.eclipse.jubula.client.ui.rcp.commands.togglePauseOnErrorCommand,Pause on Test Execution Errors,
 		,
 		Category(org.eclipse.jubula.client.ui.rcp.commands,Functional Test,null,true),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -842,16 +857,27 @@ Binding(F9,
 	org.eclipse.ui.contexts.window,,,system)
 !SUBENTRY 1 org.eclipse.jface 2 0 2019-06-10 12:06:30.160
 >>>>>>> pr/26
+=======
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@f53db1a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-06-10 12:00:35.606
+>>>>>>> pr/28
 !MESSAGE A conflict occurred for SHIFT+F9:
 Binding(SHIFT+F9,
 	ParameterizedCommand(Command(org.eclipse.cdt.make.ui.targetBuildCommand,Build Target Build,
 		Invoke a make target build for the selected container.,
 		Category(org.eclipse.ui.category.project,Project,null,true),
 <<<<<<< HEAD
+<<<<<<< HEAD
 		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1a42da0a,
 =======
 		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6971c6b7,
 >>>>>>> pr/26
+=======
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6870e039,
+>>>>>>> pr/28
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
@@ -859,6 +885,7 @@ Binding(SHIFT+F9,
 	ParameterizedCommand(Command(org.eclipse.jubula.client.ui.rcp.commands.ShowFromClipboard,Open Element from Clipboard,
 		,
 		Category(org.eclipse.jubula.client.ui.rcp.commands,Functional Test,null,true),
+<<<<<<< HEAD
 <<<<<<< HEAD
 		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5824b485,
 		,,true),null),
@@ -893,11 +920,19 @@ Binding(SHIFT+F9,
 	org.eclipse.ui.contexts.window,,,system)
 !SUBENTRY 1 org.eclipse.jface 2 0 2019-06-10 12:06:30.160
 >>>>>>> pr/26
+=======
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@42599b84,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-06-10 12:00:35.606
+>>>>>>> pr/28
 !MESSAGE A conflict occurred for ALT+C:
 Binding(ALT+C,
 	ParameterizedCommand(Command(org.eclipse.datatools.enablement.sybase.asa.schemaobjecteditor.examples.tableschemaeditor.copycolumn,Copy,
 		,
 		Category(org.eclipse.datatools.enablement.sybase.asa.schemaobjecteditor.examples.tableschemaedtor.10x,ASA 9.x table schema editor,null,true),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -915,6 +950,9 @@ Binding(ALT+C,
 =======
 		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4b37b01e,
 >>>>>>> pr/26
+=======
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@34986491,
+>>>>>>> pr/28
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
@@ -922,6 +960,7 @@ Binding(ALT+C,
 	ParameterizedCommand(Command(org.eclipse.jubula.client.ui.rcp.commands.newComment,New Comment,
 		,
 		Category(org.eclipse.jubula.client.ui.rcp.commands,Functional Test,null,true),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -939,10 +978,14 @@ Binding(ALT+C,
 =======
 		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@f53db1a,
 >>>>>>> pr/26
+=======
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2582e213,
+>>>>>>> pr/28
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -978,10 +1021,16 @@ user global configuration and to define the default location to store repositori
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
 user global configuration and to define the default location to store repositories: 'C:\Users\120cdeffigos'. If this is
 >>>>>>> pr/26
+=======
+!ENTRY org.eclipse.egit.ui 2 0 2019-06-10 12:00:56.746
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\120dryan'. If this is
+>>>>>>> pr/28
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 !ENTRY org.eclipse.launchbar.core 2 0 2019-06-10 12:53:24.731
 !MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
@@ -3819,3 +3868,19 @@ java.lang.OutOfMemoryError: Requested array size exceeds VM limit
 	at org.eclipse.jpt.jpa.core.internal.platform.ResourceAdapterFactory.getAdapter(ResourceAdapterFactory.java:39)
 	at org.eclipse.core.internal.runtime.AdapterManager.getAdapter(AdapterManager.java:323)
 	at org.eclipse.core.internal.runtime.AdapterManager.loadAdapter(AdapterManager.java:350)
+=======
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2019-06-10 12:01:00.580
+!MESSAGE Removing part descriptor with the 'org.eclipse.fx.ide.ui.preview' id and the 'JavaFX Preview' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2019-06-10 12:01:00.594
+!MESSAGE Removing part descriptor with the 'org.eclipse.xtend.ide.view.DerivedSourceView' id and the 'Generated Code' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2019-06-10 12:01:00.600
+!MESSAGE Removing part descriptor with the 'org.eclipse.xtext.xtext.ui.graph.view' id and the 'Xtext Syntax Graph' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-06-10 12:49:50.025
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-06-10 12:49:50.041
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+>>>>>>> pr/28

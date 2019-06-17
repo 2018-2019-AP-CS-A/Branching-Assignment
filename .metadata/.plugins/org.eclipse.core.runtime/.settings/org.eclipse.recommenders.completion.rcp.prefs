@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 completion_tips_seen=org.eclipse.recommenders.completion.rcp.tips.types
 eclipse.preferences.version=1
 =======
@@ -26,3 +27,7 @@ eclipse.preferences.version=1
 completion_tips_seen=org.eclipse.recommenders.completion.rcp.tips.discovery
 eclipse.preferences.version=1
 >>>>>>> pr/25
+=======
+completion_tips_seen=org.eclipse.recommenders.completion.rcp.tips.types
+eclipse.preferences.version=1
+>>>>>>> pr/28
