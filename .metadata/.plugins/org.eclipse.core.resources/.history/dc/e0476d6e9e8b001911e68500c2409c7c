@@ -1,0 +1,46 @@
+/**
+ * @author Matt Holdorf
+ * 
+ */
+package Holdorf_Matthew;
+
+public class Exercises
+{
+	int threeAndFive()
+	{
+		double sum3=(.5)*(333)*(999+3);
+		double sum5=(.5)*(199)*(995+5);
+		double sum15=(.5)*(66)*(990+15);
+		
+		return (int)(sum3+sum5-sum15);
+	}
+	
+	int evenFibSum()
+	{
+		int sum=0;
+		int previous=0;
+		int current=1;
+		
+		while(current<4000000)
+		{
+			current=current+previous;
+			previous=current;
+			
+			if (current % 2 == 0)
+				sum+=current;
+		}
+		return sum;
+	}
+	
+	int largestPrimeFactor()
+	{
+		int maxPrime=-1;
+		long n=600851475143;
+		
+		while (n % 2 == 0)
+		{ 
+            maxPrime = 2; 
+  
+        } 
+	}
+}
