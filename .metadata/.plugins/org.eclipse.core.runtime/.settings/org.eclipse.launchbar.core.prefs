@@ -8,6 +8,7 @@ LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=w
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 configDescList=org.eclipse.launchbar.core.descriptorType.default\:driverClass
 eclipse.preferences.version=1
 org.eclipse.launchbar.core.descriptorType.default\:driverClass/activeLaunchMode=run
@@ -56,3 +57,9 @@ eclipse.preferences.version=1
 org.eclipse.launchbar.core.descriptorType.default\:Driver/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:Driver/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
 >>>>>>> pr/25
+=======
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:Exercise_Driver
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:Exercise_Driver/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Exercise_Driver/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+>>>>>>> pr/27

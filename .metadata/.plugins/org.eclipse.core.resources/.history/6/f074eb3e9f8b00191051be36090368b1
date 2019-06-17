@@ -1,0 +1,38 @@
+/**
+ * @author Matthew Perkins
+ */
+package Perkins_Matthew;
+
+public class Exercises
+{
+	public static int threeAndFive()
+	{
+		int sum = 0;
+		for(int i = 0; i < 1000; i++)
+		{
+			if(i % 5 == 0 || i % 3 == 0)
+				sum = i + sum;
+		}
+		return sum;
+	}
+	
+	public static int evenFibSum()
+	{
+		int sum = 0, i = 1;
+		while(i < 4000000)
+		{
+			if(i%2 == 0)
+				sum = sum + fibHelp(i);
+			i++;
+		}
+		return sum;
+	}
+	
+	private static int fibHelp(int n)
+	{
+		if(n <= 2)
+			return 1;
+		else
+			return fibHelp(n-1) + fibHelp(n-2);
+	}
+}
