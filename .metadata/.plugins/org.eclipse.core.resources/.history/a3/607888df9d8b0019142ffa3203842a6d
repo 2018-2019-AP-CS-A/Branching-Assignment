@@ -1,0 +1,56 @@
+package hong_jonathan;
+/** @author Jonathan Hong **/
+public class Exercises 
+{
+	public static int threeAndFive()
+	{
+		int sum = 0;
+		for (int i = 0; i < 1000; i++)
+		{
+			if (i %5 == 0 || i %3 == 0)
+				sum = sum + i;
+		}
+		return sum;
+	}
+	
+	public static int evenFibSum()
+	{
+		int num = 4000000, seq1 = 1, seq2 = 1, sum = 0;
+		for (int i = 0; i < num; i++)
+		{
+			if ((seq1 + seq2)%2 == 0)
+			{
+				sum+=(seq1 + seq2);
+				seq1 = seq2;
+				seq2 = seq1 + seq2;
+			}
+		}
+		return sum;
+	}
+	
+	public static int largestPrimeFactor()
+	{
+		int largest = 0;
+		long num = 6008514751431l;
+		boolean isPrime = false;
+		for (int i = 2; i < num; i++)
+		{
+			if (num %i == 0)
+				for (int j = 0; j < i; j++)
+				{
+					if (i%j ==0)
+						isPrime = true;
+				}
+			if (isPrime == false)
+				return i;
+		}
+		return largest;
+	}
+	
+	public static void main(String[] args)
+	{
+		System.out.println(threeAndFive());
+		System.out.println(evenFibSum());
+		System.out.println(largestPrimeFactor());
+	}
+}
