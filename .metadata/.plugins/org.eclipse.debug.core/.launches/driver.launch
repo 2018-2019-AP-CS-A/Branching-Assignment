@@ -1,19 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-<<<<<<< HEAD
-<listEntry value="/Branching-Assignment/src/mascolo_matthew/driver.java"/>
-=======
-<listEntry value="/Branching-Assignment/src/Thapar_Avijit/driver.java"/>
->>>>>>> pr/17
+<listEntry value="/Branching-Assignment/src/Lee_Ethan/Driver.java"/>
 </listAttribute>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
 <listEntry value="1"/>
 </listAttribute>
-<<<<<<< HEAD
-<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="mascolo_matthew.driver"/>
-=======
-<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="Thapar_Avijit.driver"/>
->>>>>>> pr/17
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="Lee_Ethan.Driver"/>
 <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Branching-Assignment"/>
 </launchConfiguration>
